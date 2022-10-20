@@ -60,6 +60,8 @@ $stringtie -o $sample_name"_stringtie.gtf" -A $sample_name"_gene_abundances.tsv"
 > * -e measures expression of genes only present in the annotation
 > * -v turns on verbose mode
 
+***
+
 * We wrote a simple [script](https://github.com/lucasrocmoreira/Flexible-homeostasis/blob/main/RNA_seq_alignment.sh) to run this pipeline at the Broad server for several samples.
 
 ```
