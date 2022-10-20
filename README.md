@@ -1,6 +1,6 @@
 ## RNA-seq analysis
 
-Pipeline for the analysis of RNA-seq data for the *Flexible homeostasis project*
+Pipeline for the analysis of RNA-seq data for the *Flexible Homeostasis Project*
 
 ***
 
