@@ -51,7 +51,7 @@ $hisat2/hisat2 -p 8 --dta -x $reference \
 -U $sample_name.R1_unpaired.fq.gz,$sample_name.R2_unpaired.fq.gz | samtools sort -@ 8 -T /seq/vgb/flexible_homeostasis/temp/ -o $bamDir/$sample_name.sorted.bam
 ```
 
-5) Quantify transcrip abundance using [StringTie](https://ccb.jhu.edu/software/stringtie/index.shtml).
+5) Quantify transcript abundance using [StringTie](https://ccb.jhu.edu/software/stringtie/index.shtml).
 
 ```
 $stringtie -o $sample_name"_stringtie.gtf" -A $sample_name"_gene_abundances.tsv" -G $annotation.gtf -e -v -p 8 $sample_name.sorted.bam
