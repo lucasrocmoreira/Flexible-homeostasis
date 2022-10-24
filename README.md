@@ -77,3 +77,7 @@ for i in vgb/flexible_homeostasis/rna_seq/rat/RN*_R1_001.fastq.gz;
 do vgb/flexible_homeostasis/rna_seq/scripts/RNA_seq_alignment.sh $i; 
 done
 ```
+
+***
+
+### Differentially expession analysis
