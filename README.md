@@ -36,6 +36,8 @@ ILLUMINACLIP:/seq/vgb/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10
 hisat2-build $ref.fa $name -p 16
 ```
 
+> * NOTE: make sure the fasta file for genome reference is not .gz.
+
 We ran on the Broad cluster using:
 
 ```
@@ -56,7 +58,7 @@ $hisat2/hisat2 -p 8 --dta -x $reference \
 ```
 $stringtie -o $sample_name"_stringtie.gtf" -A $sample_name"_gene_abundances.tsv" -G $annotation.gtf -e -v -p 8 $sample_name.sorted.bam
 ```
-
+> * NOTE: make sure the gtf file for genome annotation is not .gz.
 > * -e measures expression of genes only present in the annotation
 > * -v turns on verbose mode
 
