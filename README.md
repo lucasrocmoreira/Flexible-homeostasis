@@ -83,3 +83,5 @@ done
 ***
 
 ### Differentially expession analysis
+
+Based on [this tutorial](https://www.bioconductor.org/packages/devel/workflows/vignettes/RNAseq123/inst/doc/limmaWorkflow.html).
