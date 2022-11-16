@@ -1,3 +1,10 @@
+####################################################
+#                                                  #
+#   Script for Differential Expression Analyses    #
+#   Written by Lucas R Moreira (Sep. 2022)         #
+#                                                  #
+####################################################
+
 library(tidyverse)
 library(limma)
 library(edgeR)
