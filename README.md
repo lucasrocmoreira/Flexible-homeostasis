@@ -86,7 +86,7 @@ done
 
 Before performing the DEA, remove spaces from count table header
 ```
-for i in *gene_abundances.tsv; do name=`echo $i | cut -d '_' -f1`; sed 's/ /_/g' $i > $name.count.csv; done
+for i in *gene_abundances.tsv; do name=`echo $i | cut -d '_' -f1`; sed 's/ /_/g' $i > $name.count.tsv; done
 ```
 
 Based on [this tutorial](https://www.bioconductor.org/packages/devel/workflows/vignettes/RNAseq123/inst/doc/limmaWorkflow.html).
